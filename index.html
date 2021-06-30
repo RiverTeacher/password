@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+
+<title>PASSWORD認証</title>
+
+	<script type="text/javascript">
+   function gate() {
+      var UserInput = prompt("パスワードを入力して下さい:","");
+      location.href = UserInput + ".html";
+
+
+   }
+</script>
+</head>
+<body>
+<h1 style="text-align: center;">このサイトはパスワードで保護されています。パスワードを認証する必要があります</h1>
+<input type="button" style="text-align: center;" value="ログイン" onclick="gate();">
+</body>
+</html>
